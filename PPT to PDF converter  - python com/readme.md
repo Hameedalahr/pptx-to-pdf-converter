@@ -2,9 +2,9 @@
 
 This method utilizes the `comtypes` library to automate Microsoft PowerPoint and convert `.ppt` or `.pptx` files into `.pdf` format.
 
-> ⚠️ This method only works on **Windows** with **Microsoft PowerPoint installed**.
+>  This method only works on **Windows** with **Microsoft PowerPoint installed**.
 
-## 🛠️ How It Works
+##  How It Works
 
 Uses COM automation to open PowerPoint
 
@@ -20,10 +20,10 @@ Saves it as PDF using PowerPoint's internal API
   - Requires PowerPoint installed
   - Cannot be hosted/deployed via Streamlit or cloud
     
-## 📦 Requirements
+##  Requirements
 
 Install `pywin32 and streamlit` using pip:
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 
