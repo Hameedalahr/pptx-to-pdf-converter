@@ -25,5 +25,5 @@ Saves it as PDF using PowerPoint's internal API
 Install `comtypes and streamlit` using pip:
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 
