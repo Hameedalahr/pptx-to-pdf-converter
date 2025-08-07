@@ -34,7 +34,7 @@ Convert `.pptx` → `.pdf` using `pip`-installable libraries while:
 
 ---
 
-## 🔬 Methods Comparison  
+##  Methods Comparison  
 
 | Method               | Cross-Platform | Streamlit-Friendly | Layout Quality | Requires MS PowerPoint | Library Type        |
 |----------------------|----------------|--------------------|----------------|------------------------|--------------------|
