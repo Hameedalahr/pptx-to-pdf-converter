@@ -54,7 +54,7 @@ Convert `.pptx` → `.pdf` using `pip`-installable libraries while:
 - Requires PowerPoint installation
 - Streamlit Cloud and most other cloud platforms run on Linux-based containers. Pythoncom rely heavily on Windows COM APIs, which don’t exist on Linux/MacOS.
 
-📂 [View implementation details]()  
+📂 [View implementation details](https://github.com/Hameedalahr/pptx-to-pdf-converter/blob/main/PPT%20to%20PDF%20converter%20%20-%20python%20com/readme.md)  
 
 ## 2. comtypes  
 **Pros**:  
@@ -65,7 +65,7 @@ Convert `.pptx` → `.pdf` using `pip`-installable libraries while:
 - Same Windows/PowerPoint limitations
 - Streamlit Cloud and most other cloud platforms run on Linux-based containers. Pythoncom rely heavily on Windows COM APIs, which don’t exist on Linux/MacOS.
 
-📂 [View implementation details]()  
+📂 [View implementation details](https://github.com/Hameedalahr/pptx-to-pdf-converter/blob/main/PPT%20to%20PDF%20Converter%20-%20comtypes/readme.md)  
 
 ## 3. python-pptx + reportlab  
 **Pros**:  
@@ -76,7 +76,7 @@ Convert `.pptx` → `.pdf` using `pip`-installable libraries while:
 - Complex layouts may break  
   
 
-📂 [View implementation details]()  
+📂 [View implementation details](https://github.com/Hameedalahr/pptx-to-pdf-converter/blob/main/PPT%20to%20PDF%20Converter%20-%20python%20pptx/readme.md)  
 
 ---
 
@@ -125,5 +125,4 @@ streamlit run app.py
 | Cross-Platform     | python-pptx + reportlab  |
 | Free & Pip-Based   | All methods              |
 | Cloud Deployment   | Only python-pptx combo   |
-```  
 
