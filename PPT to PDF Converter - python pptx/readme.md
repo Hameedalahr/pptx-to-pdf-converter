@@ -33,5 +33,5 @@ Uses reportlab to write the content into a PDF
 Install `pythonpptx and reportlab` using pip:
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 
