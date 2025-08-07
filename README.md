@@ -5,7 +5,7 @@
 
 This repository demonstrates **three different methods** to convert PowerPoint presentations (`.pptx`) into PDF files using Python.  
 
-## 📁 Project Structure  
+## Project Structure  
 
 ```bash
 .
@@ -25,7 +25,7 @@ This repository demonstrates **three different methods** to convert PowerPoint p
 └── README.md
 ```
 
-## 🚀 Goal  
+## Goal  
 Convert `.pptx` → `.pdf` using `pip`-installable libraries while:  
 ✔️ The file should not be corrupted during conversion  
 ✔️ Use libraries that only can be installed using pip (not brew or out of pip) 
@@ -38,9 +38,9 @@ Convert `.pptx` → `.pdf` using `pip`-installable libraries while:
 
 | Method               | Cross-Platform | Streamlit-Friendly | Layout Quality | Requires MS PowerPoint | Library Type        |
 |----------------------|----------------|--------------------|----------------|------------------------|--------------------|
-| `pythoncom` (pywin32) | ❌ Windows only | ❌ No               | ✅ Excellent    | ✅ Yes                  | COM Automation     |
-| `comtypes`           | ❌ Windows only | ❌ No               | ✅ Excellent    | ✅ Yes                  | COM Automation     |
-| `python-pptx` + `reportlab` | ✅ Yes       | ✅ Yes              | ⚠️ May corrupt | ❌ No                   | Pure Python + PDF  |
+| `pythoncom` (pywin32) |  Windows only | No               | Excellent    | Yes                  | COM Automation     |
+| `comtypes`           |  Windows only | No               | Excellent    | Yes                  | COM Automation     |
+| `python-pptx` + `reportlab` |  Yes       | Yes              | May corrupt |  No                   | Pure Python + PDF  |
 
 ---
 
@@ -54,7 +54,7 @@ Convert `.pptx` → `.pdf` using `pip`-installable libraries while:
 - Requires PowerPoint installation
 - Streamlit Cloud and most other cloud platforms run on Linux-based containers. Pythoncom rely heavily on Windows COM APIs, which don’t exist on Linux/MacOS.
 
-📂 [View implementation details](https://github.com/Hameedalahr/pptx-to-pdf-converter/blob/main/PPT%20to%20PDF%20converter%20%20-%20python%20com/readme.md)  
+ [View implementation details](https://github.com/Hameedalahr/pptx-to-pdf-converter/blob/main/PPT%20to%20PDF%20converter%20%20-%20python%20com/readme.md)  
 
 ## 2. comtypes  
 **Pros**:  
@@ -65,7 +65,7 @@ Convert `.pptx` → `.pdf` using `pip`-installable libraries while:
 - Same Windows/PowerPoint limitations
 - Streamlit Cloud and most other cloud platforms run on Linux-based containers. Pythoncom rely heavily on Windows COM APIs, which don’t exist on Linux/MacOS.
 
-📂 [View implementation details](https://github.com/Hameedalahr/pptx-to-pdf-converter/blob/main/PPT%20to%20PDF%20Converter%20-%20comtypes/readme.md)  
+[View implementation details](https://github.com/Hameedalahr/pptx-to-pdf-converter/blob/main/PPT%20to%20PDF%20Converter%20-%20comtypes/readme.md)  
 
 ## 3. python-pptx + reportlab  
 **Pros**:  
@@ -76,11 +76,11 @@ Convert `.pptx` → `.pdf` using `pip`-installable libraries while:
 - Complex layouts may break  
   
 
-📂 [View implementation details](https://github.com/Hameedalahr/pptx-to-pdf-converter/blob/main/PPT%20to%20PDF%20Converter%20-%20python%20pptx/readme.md)  
+ [View implementation details](https://github.com/Hameedalahr/pptx-to-pdf-converter/blob/main/PPT%20to%20PDF%20Converter%20-%20python%20pptx/readme.md)  
 
 ---
 
-## ✅ Final Recommendation  
+##  Final Recommendation  
 
 ### For Windows users:  
 **Best**: `pythoncom` or `comtypes`  
@@ -104,12 +104,12 @@ streamlit run app.py
 
 ---
 
-## 🛠 Requirements  
+##  Requirements  
 - Python 3.8+  
 - Virtual environment recommended  
 - For COM methods: Microsoft PowerPoint must be installed  
 
-## ⚠️ Alternatives Considered (But not implemented)  
+##  Alternatives Considered (But not implemented)  
 | Tool          | Reason                          |
 |---------------|---------------------------------|
 | Aspose        | Commercial license required     |
@@ -117,7 +117,7 @@ streamlit run app.py
 
 ---
 
-## 📌 Summary Table  
+##  Summary Table  
 
 | Criterion          | Best Choice              |
 |--------------------|--------------------------|
