@@ -27,10 +27,10 @@ This repository demonstrates **three different methods** to convert PowerPoint p
 
 ## Goal  
 Convert `.pptx` → `.pdf` using `pip`-installable libraries while:  
-✔️ The file should not be corrupted during conversion  
-✔️ Use libraries that only can be installed using pip (not brew or out of pip) 
-✔️ Research  about the process by maintaining the requirement.txt file  
-✔️ Should use VSCode and done in virtual environment 
+ - The file should not be corrupted during conversion  
+ - Use libraries that only can be installed using pip (not brew or out of pip) 
+ - Research  about the process by maintaining the requirement.txt file  
+ - Should use VSCode and done in virtual environment 
 
 ---
 
